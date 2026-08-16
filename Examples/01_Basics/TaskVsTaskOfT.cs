@@ -8,7 +8,7 @@ namespace AsyncPlayground.Examples.Basics;
 /// </summary>
 sealed class TaskVsTaskOfT : IAsyncExample
 {
-    public string Category => "01. Basics";
+    public string Category => "01. Basics async";
     public string Title => "Task vs Task<T>, and what await really does";
     public string Summary => "Shows the difference between a void-like async method and one returning a value, and proves control returns to the caller during an await.";
 
